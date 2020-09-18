@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- version 1.01 en -->
+  <!-- Github Setup Complete -->
+
+  <!-- default page setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+
+  <!-- web style import -->
+  <!-- Materialize import last version -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <!-- Versao original de dev  -->
+  <!-- <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+  <!-- Font Awwsome for icons -->
+  <!-- <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <!-- local style import -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Carlos Eduardo Ribeiro | Portfolio & Resume</title>
+  <!-- Open Graph
+        <meta property="og:locale" content="en_US" /> -->
+</head>
+
+<body>
+  <!-- Navigation Menu Browser Padrao-->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo blue-text text-darken-4">
+          <h1>
+            Carlos Ribeiro
+            <span class="brown-text light">Front End Developer <br>Project Manager <br>Infrastructure Specialist</span>
+          </h1>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-person small"></i>
+          <span>About</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text">
+          <i class="mdi-action-trending-up small"></i>
+          <span>Experience</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text">
+          <i class="mdi-av-web small"></i>
+          <span>Projects</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text">
+          <i class="mdi-av-equalizer small"></i>
+          <span>Skills</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text">
+          <i class="mdi-action-grade small"></i>
+          <span>Awards</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text">
+          <i class="mdi-social-school small"></i>
+          <span>Education</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text">
+          <i class="mdi-content-mail small"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Carlos's resume in a new tab" href="" target="_blank"
+          class="waves-effect waves-dark grey-text text-darken-3">
+          <i class="mdi-action-description small"></i>
+          <span>Resume</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- barra de topo mobile -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse">
+      <i class="mdi-navigation-menu"></i>
+    </a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Carlos Ribeiro
+      </a>
+      <span class="brown-text light">Front End Dev. | Project Manager<br> Infrastructure Specialist </span>
+    </div>
+  </nav>
+  <!-- barra de menu lateral mobile-->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text">
+          <i class="mdi-social-person small"></i>
+          <span>About</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text">
+          <i class="mdi-action-trending-up small"></i>
+          <span>Experience</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text">
+          <i class="mdi-av-web small"></i>
+          <span>Projects</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text">
+          <i class="mdi-av-equalizer small"></i>
+          <span>Skills</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text">
+          <i class="mdi-action-grade small"></i>
+          <span>Awards</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text">
+          <i class="mdi-social-school small"></i>
+          <span>Education</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text">
+          <i class="mdi-content-mail small"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Carlos's Resume in a new tab" href="" target="_blank"
+          class="waves-effect waves-dark grey-text text-darken-3">
+          <i class="mdi-action-description small"></i>
+          <span>Resume</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+<!-- Main Content-->
+<main>
+  <section id="intro" class="section scrollspy full-height">
+    <div class="overlay">
+    </div>
+    <div class="container">
+      <h2>
+        I want to <span class="blue darken-4">work in projects</span><br />that
+        <span class="underline">bring value to your business</span>.
+      </h2>
+    </div>
+  </section>
+  <section id="about" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">About</h3>
+    <div class="container flow-text">
+      <blockquote>
+        <h2>
+          DECIDIR O QUE COLOCAR AQUI COMO DESTAQUE
+          <!-- Mission-driven full stack developer with a passion for thoughtful
+                UI design, collaboration, and teaching. -->
+        </h2>
+      </blockquote>
+      <p>
+        Proactive, responsible Front-End Developer and Wordpress Specialist.
+        Known to possess strong technical knowledge and to deliver solid systems. More than 5 years' experience
+        developing
+        personal projects and freelancer services that deliveries successful websites to my customers.
+      </p><br>
+      <p>
+        More than 15 years on the market working for small and big corporations
+        acting as Project Manager, Infrastructure Analyst, and Support Analyst,
+        now pursuing a chance to working as FrontEnd Designer as main occupation.
+        Active in open source communities such as GitHub, Wikipedia and others.
+      </p>
+      <!-- <p>
+              As a web developer, I enjoy using my obsessive attention to detail,
+              my unequivocal love for making things, and my mission-driven work
+              ethic to literally change the world. That's why I’m excited to make
+              a big impact at a high growth company.
+            </p> -->
+      <p><br>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label='Nav to the web book "Scalable Modular Architecture for CSS"'
+          href="http://smacss.com/book/" target="_blank">SMACSS</a>&nbsp;//&nbsp;<a
+          aria-label="Nav to Inclusive Design Patterns webpage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/"
+          target="_blank">Accessibility</a>&nbsp;//&nbsp;<a aria-label="Nav to the Full Stack React webpage"
+          href="https://reactjs.org/docs/getting-started.html#learn-react" target="_blank">React</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="experience" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">Experience</h3>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s12 m2">
+              <a href="http://" target="_blank">
+                <img alt="RCA logo" src="assets/img/rca-logo.jpg" class="responsive-img center-block" /></a>
+            </div>
+            <div class="col s12 m10">
+              <p>
+                <span class="card-title">
+                  <a href="http://" target="_blank" class="blue-text text-darken-4 hoverline">RCA Assessoria e
+                    Consultoria</a>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="role brown-text">Project Manager</div>
+          <p>
+            <ul class="collapsible">
+              <div class="collapsible-header">Click here for more information</div>
+              <div class="collapsible-body"><br>
+                <em class="grey-text">RCA is a Brazilian Consulting small company that provide Consulting in Financial
+                  and Administrative departments.</em>
+          </p>
+          <h6>Project Manager Activities</h6>
+          <ul>
+            <li>
+              Develop a detailed project plan to monitor and track work progress
+            </li>
+            <li>
+              Develop work-flow charts and diagrams to ensure production team compliance with client deadlines
+            </li>
+            <li>
+              Ensure that all projects are delivered on-time, within scope and within budge
+            </li>
+            <li>Measure project performance using appropriate tools and techniques, monitoring timelines and flagged
+              potential issues to be addressed
+            </li>
+            <li>
+              Active participation in handovers and transitions process, handling of the delivery documentation and
+              transition processes for the beginning of activities
+            </li>
+            <li>
+              Delegate project tasks based on junior staff members' individual strengths, skill sets and experience
+              levels;
+            </li>
+            <li>
+              Used Tools and methodology: Microsoft Project, Microsoft Excel, Trello, Agile
+            </li>
+          </ul>
+          <h6>Accomplishments</h6>
+          <ul>
+            <li>
+              Successfully improved the team's workflow, saving over $10,000 in customers operations
+            </li>
+            <li>
+              Most Valuable and Inovated Employee 2019: Elected by coworkers
+            </li>
+          </ul>
+          <div class="card-action">
+            <span>Jan 2015 - Present | Vespasiano, Brazil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <div class="col s12 m2">
+            <a href="http://ibm.com/" target="_blank"><img alt="IBM logo" src="assets/img/ibm-logo.png"
+                class="responsive-img center-block" /></a>
+          </div>
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="http://ibm.com/" target="_blank"
+                  class="blue-text text-darken-4 hoverline">IBM Brazil</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text">Infrastructure Analyst and Jr. Project Manager</div>
+        <p>
+          <ul class="collapsible">
+            <div class="collapsible-header">Click here for more information</div>
+            <div class="collapsible-body">
+              <br>
+              <em class="grey-text">IBM is an American multinational information technology company</em>
+        </p>
+        <br>
+        <ul>
+          <li>
+            Elaborated connectivity proposals for new IBM customers as Technical Solution Analyst (TSA)
+          </li>
+          <li>
+            Received, analyzed requests, and planned the IT infrastructure according to RFP (Request for
+            Proposal).
+            Developed the best method to connect IBM to the customers and meet the requirements of the contract,
+            including network hardware and service scope
+          </li>
+          <li>
+            Provided documentation on start-up, shut down and first level troubleshooting of processes to help
+            desk
+            staff
+          </li>
+          <li>
+            Implemented small infrastructure solutions as Project Manager
+          </li>
+          <li>
+            Participated actively in handovers and transitions process, handling of the delivery documentation and
+            transition processes for the beginning of infrastructure implementation activities
+          </li>
+          <li>
+            Provided documentation on start-up, shut down and first level troubleshooting of processes to help
+            desk
+            staff
+          </li>
+          <li>
+            Developed work-flow charts and diagrams to ensure production team compliance with client deadlines
+          </li>
+          <li>
+            Monitored timelines and flagged potential issues to be addressed
+          </li>
+        </ul>
+
+        <div class="card-action">
+          <span>January 2009 - August 2014 | Belo Horizonte, Brazil</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <div class="col s12 m2">
+            <a href="http://ibm.com/" target="_blank"><img alt="IBM logo" src="assets/img/ibm-logo.png"
+                class="responsive-img center-block" /></a>
+          </div>
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="http://ibm.com/" target="_blank"
+                  class="blue-text text-darken-4 hoverline">IBM Brazil</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text">Support Analyst</div>
+        <p>
+          <ul class="collapsible">
+            <div class="collapsible-header">Click here for more information</div>
+            <div class="collapsible-body">
+              <br>
+              <em class="grey-text">IBM is an American multinational information technology company</em>
+        </p>
+        <br>
+        <ul>
+          <li>
+            Elaborated connectivity proposals for new IBM customers as Technical Solution Analyst (TSA)
+          </li>
+          <li>
+            Received, analyzed requests, and planned the IT infrastructure according to RFP (Request for
+            Proposal).
+            Developed the best method to connect IBM to the customers and meet the requirements of the contract,
+            including network hardware and service scope
+          </li>
+          <li>
+            Provided documentation on start-up, shut down and first level troubleshooting of processes to help
+            desk
+            staff
+          </li>
+          <li>
+            Implemented small infrastructure solutions as Project Manager
+          </li>
+          <li>
+            Participated actively in handovers and transitions process, handling of the delivery documentation and
+            transition processes for the beginning of infrastructure implementation activities
+          </li>
+          <li>
+            Provided documentation on start-up, shut down and first level troubleshooting of processes to help
+            desk
+            staff
+          </li>
+          <li>
+            Developed work-flow charts and diagrams to ensure production team compliance with client deadlines
+          </li>
+          <li>
+            Monitored timelines and flagged potential issues to be addressed
+          </li>
+        </ul>
+
+        <div class="card-action">
+          <span>February 2007 - January 2009 | Belo Horizonte, Brazil</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <div class="col s12 m2">
+            <a href="https://www.capgemini.com/us-en/" target="_blank"><img alt="Startup Institute logo"
+                src="assets/img/CPM_Braxis_logo.png" class="responsive-img center-block" /></a>
+          </div>
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://www.capgemini.com/us-en/" target="_blank"
+                  class="teal-text hoverline">CPM Braxis S/A</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text">
+          Support Leader and Analyst
+        </div>
+        <p>
+          <ul class="collapsible">
+            <div class="collapsible-header">Click here for more information</div>
+            <div class="collapsible-body">
+              <br>
+              <em class="grey-text">CPM Braxis was the largest Brazilian outsourcing company back in 2005, focused on
+                Applications Outsourcing and Infrastructure Management, serving more than 200 clients, including large
+                Brazilian companies. Was acquired by Capgemini in 2010</em>
+        </p>
+        <br>
+        <ul>
+          <li>
+            Management activities - IT control, dealing with suppliers, management of staff and trainees and
+            coordination of daily support activities at CPM Braxis site in Belo Horizonte
+          </li>
+          <li>
+            Team controller (financial, structural and HR) Technical Experience
+          </li>
+          <li>
+            Network support (links, routers, switches and others)
+          </li>
+          <li>
+            Servers (installation, maintenance, configuration and operation);
+          </li>
+          <li>
+            Telephony (charging control, PABX, Interfix and others);
+          </li>
+          <li>
+            Inventory control
+          </li>
+          <li>
+            End-user support
+          </li>
+          <li>
+            Support users in software installation;
+          </li>
+        </ul>
+
+        <div class="card-action">
+          <span>July 2003 - February 2007 | Belo Horizote, Brazil</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="row">
+          <div class="col s12 m2">
+            <a href="https://www.cadutech.com" target="_blank">
+              <img alt="Startup Institute logo" src="assets/img/cadutech-logo.png"
+                class="responsive-img center-block" /></a>
+          </div>
+          <div class="col s12 m10">
+            <p>
+              <span class="card-title"><a href="https://www.cadutech.com" target="_blank" class="teal-text hoverline">As
+                  Freelancer</a></span>
+            </p>
+          </div>
+        </div>
+        <div class="role brown-text">
+          Web Developer and Wordpress Specialist
+        </div>
+        <p>
+          <ul class="collapsible">
+            <div class="collapsible-header">Click here for more information</div>
+            <div class="collapsible-body">
+              <br>
+              <em class="grey-text">bla bla bla</em>
+        </p>
+        <br>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quasi ex quo consequuntur odit
+            recusandae sed placeat, saepe quam labore eum a quos tempore dolor magni soluta reprehenderit repellat sit?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, explicabo dolor. Dolorum, doloremque accusantium
+            nam nobis cupiditate earum eaque ab recusandae placeat laudantium ratione exercitationem ipsum adipisci odit
+            at sint.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi, libero accusantium sed autem eos saepe
+            repudiandae officia, optio quidem sit magni facere ut minus natus aperiam? Reprehenderit, aliquid provident.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi reiciendis, explicabo velit hic culpa odit
+            quisquam est, similique beatae veniam quibusdam voluptate, nostrum voluptatum aliquid non molestiae
+            accusantium modi tempora.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem harum temporibus id obcaecati tempora
+            eveniet cupiditate aliquam perferendis aperiam. Eveniet in exercitationem numquam aut perspiciatis quis,
+            quod harum libero assumenda?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatum ut aut dignissimos est magni
+            tempora rem fugiat libero quae. Sed cupiditate totam libero doloribus, eligendi cumque vitae eius illo?
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur provident nam corporis laborum amet
+            doloremque tenetur assumenda voluptates. Vero nulla voluptates sequi natus architecto deserunt placeat.
+            Quas, labore distinctio?
+          </li>
+          <li>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate molestias laborum quaerat
+            dolorem? Ut facilis excepturi explicabo quod culpa earum natus sed. Eius debitis aliquam magni dolores
+            expedita excepturi.
+          </li>
+
+        </ul>
+        <h6>Accomplishments</h6>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, officiis praesentium facere facilis
+            repellendus ut similique quos, ipsam quam officia magni, illum optio nesciunt repellat id? Culpa nesciunt
+            cumque dolore.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ducimus animi hic molestiae ab ratione laborum,
+            aperiam non exercitationem? Itaque voluptas magnam delectus deserunt? Laudantium aspernatur pariatur ipsa
+            explicabo voluptatum.
+          </li>
+        </ul>
+
+        <div class="card-action">
+          <span>July 2003 - February 2007 | Belo Horizote, Brazil</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="projects" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">Projects</h3>
+    <div class="container">
+      <div class="row">
+        <!-- cadutech website-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Screenshot of cadutech cv and portfolio website" src="assets/img/cadutech.png"
+                class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Cadu Tech - 2020<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Personal Web-resume and web-portfolio made for personal use and promotion.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Html, CSS and Javascript</strong> Coding</li>
+                <li><strong>Bootstrap CSS</strong> FrontEnd</li>
+                <li><strong>Bootstrap</strong> Grunt</li>
+                <li><strong>Coding</strong> Standards and best practices application</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit cadutech.com website" href="https://cadutech.com/" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for cadutech project"
+                  href="https://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Holy Grain website-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Screenshot of holy grain coffee shop" src="assets/img/holygrain.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Holy Grain Coffee - 2020<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Holy Grain Coffee Shop business website - Orlando, FL.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Html, CSS and Javascript</strong> Coding</li>
+                <li><strong>Bootstrap CSS</strong> FrontEnd</li>
+                <li><strong>Bootstrap</strong> Grunt</li>
+                <li><strong>Coding</strong> Standards and best practices application</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit cadutech.com website" href="http://holygraincoffee.com" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for cadutech project"
+                  href="https://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- kings pizza orlando website-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Screenshot of kings pizza orlando" src="assets/img/kingspizza.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">King's Pizza - 2020<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                King's Pizza Orlando business website - Orlando, FL.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Html, CSS and Javascript</strong> Coding</li>
+                <li><strong>Bootstrap CSS</strong> FrontEnd</li>
+                <li><strong>Bootstrap</strong> Grunt</li>
+                <li><strong>Coding</strong> Standards and best practices application</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit cadutech.com website" href="https://kingspizzaorlando.com/" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for cadutech project"
+                  href="https://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- RR Tours-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="RR Tours logo" src="assets/img/rrtours.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">RR Tours - 2019<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Brazilian travel agency website and brand certification
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Wordpress</strong> FrontEnd and theme setup and adjustments</li>
+                <li><strong>CRM</strong> integration via Insightly</li>
+                <li><strong>Content </strong> template creation</li>
+                <li><strong>Graphic design</strong> Creation of publicity content and brand via Photoshop</li>
+                <li><strong>Digital Marketing</strong> Strategy and actions</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit RR Tours website" href="http://rrtours.com.br/" target="_blank" data-position="top"
+                  data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for RR Tours project"
+                  href="http://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Puntcast Podcast-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Screenshot of Puntcast Podcast" src="assets/img/puntcast.jpg" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Puntcast Podcast - 2017<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                A weekly Podcast about American Football, website, podcast production and edition made by me.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Wordpress</strong> FrontEnd and theme setup and adjustments</li>
+                <li><strong>Podcast RSS setup</strong> via PowerPress plugin</li>
+                <li>Podcast <strong>production</strong> content, audio captionand edition</li>
+                <li><strong>Graphic design</strong> Creation of content and brand via Photoshop</li>
+                <li><strong>Digital Marketing</strong> Strategy and actions</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit Puntcast Website" href="https://puntcast.com.br/" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for BlogSpire project"
+                  href="https://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cadu e Paty -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Cadu e Paty wedding website" src="assets/img/caduepaty.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Cadu e Paty - 2013<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                My wedding website (2012-2013) to inform our guests.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <ul>
+                  <li>Front-end development in <strong>Joomla</strong></li>
+                  <li>Branding and graphic desing creation</li>
+                  <li>Template personalization</li>
+                  <li><strong>Head of content</strong> and editor</li>
+                  <li><strong>Webstore</strong> creation and setup</li>
+                  <li><strong>Google Maps</strong> integration</li>
+                  <li>Wedding<strong> Photo Gallery</strong></li>
+                </ul>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit Cadu e Paty website" href="http://caduepaty.com.br" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for RI WiFi project"
+                  href="http://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Unwanted Guild - World of Warcraft-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Zach Morris from Saved by the Bell, on his clunky cell phone"
+                src="assets/img/unwanted_guild.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Unwanted Guild - 2012<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Word of Warcraft guild website and forum
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li>Built with <strong>Joomla</strong></li>
+                <li>Private <strong>forum</strong></li>
+                <li><strong>Ventrilo</strong> integration using API</li>
+                <li><strong>Logo and design</strong> production</li>
+                <li><strong>Guild GM and Leader</strong> for over 9 years</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit Unwanted Guild website" href="http://unwantedguild.com/" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Unwanted Guild project"
+                  href="http://github.com/" target="_blank" data-position="top" data-tooltip="View Source"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bobalhao -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Skate boarder catching air on a half pipe" src="assets/img/skate-something.jpg"
+                class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Bobalhão<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Funny facts and meme blog from early 2000's
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li>Front-end development in <strong>Joomla</strong></li>
+                <li>Branding and graphic desing creation</li>
+                <li>Template personalization</li>
+                <li><strong>Head of content</strong> and editor</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit bobalhao website" href="http://bobalhao.com.br" data-position="top"
+                  data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for bobalhao project"
+                  href="#" data-position="top" data-tooltip="Source is Private"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ALR Viagens-->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="ALR Viagens Website" src="assets/img/alrviagens.png" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">ALR Viagens - 2012<i
+                  class="mdi-navigation-more-vert right"></i></span>
+              <p>
+                Brazilian travel agency website and brand creation
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span><br>
+              <ul>
+                <li><strong>Joomla</strong> FrontEnd and theme creation and adjustments</li>
+                <li><strong>Content </strong> template creation</li>
+                <li><strong>Graphic design</strong> Creation of publicity content and brand via Photoshop</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit Pinteresting web app" href="http://asb-pinteresting.herokuapp.com/" target="_blank"
+                  data-position="top" data-tooltip="View Online"
+                  class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Pinteresting project"
+                  href="http://github.com/andrewborstein/pinteresting" target="_blank" data-position="top"
+                  data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                    class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="skills" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">Skills</h3>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">HTML</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/html5.png" class="responsive-img" />HTML5
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/react.png" class="responsive-img" />JSX
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/haml.png" class="responsive-img" />Haml
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/jade.png" class="responsive-img" />Jade
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/jekyll.png" class="responsive-img" />Jekyll
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">CSS</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/css3.png" class="responsive-img" />CSS3
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/sass.png" class="responsive-img" />SASS
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/foundation.png" class="responsive-img" />Foundation
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/materialize.png" class="responsive-img" />Materialize
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Javascript</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/react.png" class="responsive-img" />React
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/javascript.png" class="responsive-img" />Javascript
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/jquery.png" class="responsive-img" />jQuery
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/angular.png" class="responsive-img" />Angular
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/nodejs.png" class="responsive-img" />Node
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/ionic.png" class="responsive-img" />Ionic
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Back-End</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/ruby.png" class="responsive-img" />Ruby
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/rails.png" class="responsive-img" />Rails
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/minitest.png" class="responsive-img" />Minitest
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/postgresql.png" class="responsive-img" />PostgreSQL
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/mongodb.png" class="responsive-img" />MongoDB
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Build Tools</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/webpack.png" class="responsive-img" />Webpack
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/gulp.png" class="responsive-img" />Gulp
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/grunt.png" class="responsive-img" />Grunt
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/bower.png" class="responsive-img" />Bower
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">CMS</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/wordpress.png" class="responsive-img" />Wordpress
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/tumblr.png" class="responsive-img" />Joomla TROCAR LOGO
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/squarespace.png" class="responsive-img" />Drupal TROCAR LOGO
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h4 class="brown-text light">Other</h4>
+          <div class="row text-center">
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/github.png" class="responsive-img" />Github
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/heroku.png" class="responsive-img" />Heroku
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/photoshop.png" class="responsive-img" />Photoshop
+            </div>
+            <div class="col s4 m2">
+              <img alt="" src="assets/img/fcpx.png" class="responsive-img" />Final Cut Pro
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="awards" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">Awards</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="http://startupinstitute.com/" target="_blank"
+                    class="teal-text hoverline">IBM PBC 1</a></span>
+              </p>
+              <p class="brown-text">
+                IBM Brazil Personal business Commitment
+              </p>
+              <ul>
+                <li>
+                  The Personal Business Commitment 1 is a high level standard
+                  honor granted by the company executives and it reflects the employee's
+                  contribution to the company compared to his peers."
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="https://wespire.com/" target="_blank"
+                    class="teal-text hoverline">Inspired By You Award</a></span>
+              </p>
+              <p class="brown-text">WeSpire | June 2016</p>
+              <ul>
+                <li>
+                  Quarterly award given to a team member who exemplifies
+                  WeSpire's purpose, vision, and values, goes above and
+                  beyond in their role to make a particularly positive
+                  impact on the company.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="http://startupinstitute.com/" target="_blank"
+                    class="teal-text hoverline">Owl Award</a></span>
+              </p>
+              <p class="brown-text">Startup Institute | April 2016</p>
+              <ul>
+                <li>
+                  Given to an alumnus who "continually gives back to the
+                  Startup Institute community with true humility, despite
+                  everyone knowing how awesome he is."
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="http://www.rhdri.org/" class="teal-text hoverline">Honorable
+                    Mention</a></span>
+              </p>
+              <p class="brown-text">
+                West Philly Homebrew Competition | May 2013
+              </p>
+              <ul>
+                <li>
+                  Neightborhood beer enthusiasts voted on their favorite
+                  local home-brewed beer. “Goldilocks" won in the "People's
+                  Choice" category.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="education" class="section scrollspy">
+    <h3 class="page-title white-text blue darken-4 class">Education</h3>
+    <div class="container">
+      <h5> Graduation </h5>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="http://www.fumec.br/" class="teal-text hoverline">Fumec
+                    University</a></span>
+              </p>
+              <p class="brown-text">Belo Horizonte, MG, Brazil</p>
+              <ul>
+                <li>B.A. Information Technology Management</li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="https://www.pucminas.br/" class="teal-text hoverline">PUC
+                    MG</a></span>
+              </p>
+              <p class="brown-text">Belo Horizonte, MG, Brazil</p>
+              <ul>
+                <li>B.A. Computer Science. Incomplete degree; 3 years experience.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h5>Courses and certifications</h5>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="http://www.fumec.br/" class="teal-text hoverline">Winter Park
+                    Tech</a></span>
+              </p>
+              <p class="brown-text">Winter Park, FL, USA - 2015</p>
+              <ul>
+                <li>ESL - English as a Second Language Graduation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="https://www.alura.com.br/" target="_blank"
+                    class="teal-text hoverline">Alura</a></span>
+              </p>
+              <p class="brown-text">Wordpress Formation - 40 hours training 2019</p>
+              <ul>
+                <li>Hosting and administration;</li>
+                <li>Pages and best practices; </li>
+                <li>Theme development and Wordpress SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="https://www.alura.com.br/" target="_blank"
+                    class="teal-text hoverline">Alura</a></span>
+              </p>
+              <p class="brown-text">HTML5 and CSS3 Formation - 190 hours training</p>
+              <ul>
+                <li>Hosting and administration;</li>
+                <li>Pages and best practices; </li>
+                <li>Theme development and Wordpress SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <p>
+                <span class="card-title"><a href="https://www.alura.com.br/" target="_blank"
+                    class="teal-text hoverline">Alura</a></span>
+              </p>
+              <p class="brown-text">Front-End Developer Formation - 160 hours training 2019</p>
+              <ul>
+                <li>Hosting and administration;</li>
+                <li>Pages and best practices; </li>
+                <li>Theme development and Wordpress SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="contact" class="section scrollspy full-height">
+    <h3 class="page-title white-text blue darken-4 class">Contact</h3>
+    <div class="container">
+      <p>
+        <a aria-label="Email Carlos" href="mailto:carlos@cadutech.com" data-position="top" data-tooltip="Email Carlos"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-envelope"></i><a
+            aria-label="Email Carlos" href="mailto:carlos@cadutech.com" class="hoverline">carlos@cadutech.com</a></a>
+      </p>
+      <p>
+        <a aria-label="View Carlos on GitHub" href="http://github.com/cadukk" target="_blank" data-position="top"
+          data-tooltip="View Carlos on GitHub"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a
+            aria-label="Carlos on Github" href="http://github.com/cadukk" target="_blank"
+            class="hoverline">github.com/cadukk</a></a>
+      </p>
+      <p>
+        <a aria-label="View Carlos on LinkedIn" href="http://linkedin.com/in/cadukk" target="_blank" data-position="top"
+          data-tooltip="View Carlos on LinkedIn"
+          class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a
+            aria-label="Carlos on LinkedIn" href="http://linkedin.com/in/cadukk" target="_blank"
+            class="hoverline">linkedin.com/in/cadukk</a></a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- jQuery-->
+<!-- <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+<script src="assets/js/jquery.min.js"></script>
+
+<!-- Materialize - Compiled and minified JavaScript-->
+<!-- <script src="cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script> -->
+<script src="assets/js/materialize.min.js"></script>
+<script>
+  // Materialize - Initializers
+  $(document).ready(function () {
+    $(".scrollspy").scrollSpy()
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+      menuWidth: 190, // Default is 240
+      edge: "left", // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    })
+  })
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, options);
+  });
+</script>
