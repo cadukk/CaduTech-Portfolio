@@ -121,7 +121,7 @@ h3 {
   height: 100vh;
 }
 #intro.section {
-  background: url(../img/carlos_family.jpg)
+  background: url(../img/tech_map.jpg);
   no-repeat top left/cover;
   position: relative;
   background-size: 100vw contain;
